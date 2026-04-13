@@ -1,8 +1,8 @@
-package main
+package patterns
 
 import "fmt"
 
-func halfPyramidStarNumber_2(){
+func HalfPyramidStarNumber_2(){
 	n:=5
 	for i := 1; i <= n; i++ {
 		for j := 1; j <= i; j++ {

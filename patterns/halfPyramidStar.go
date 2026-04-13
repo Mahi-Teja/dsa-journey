@@ -1,8 +1,8 @@
-package main
+package patterns
 
 import "fmt"
 
-func halfPyramidStar( ){
+func HalfPyramidStar( ){
 num := 4 
 for i := 1; i <= num; i++ {
 	for j := 1; j <=i; j++ {	

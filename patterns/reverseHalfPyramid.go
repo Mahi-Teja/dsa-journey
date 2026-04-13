@@ -1,8 +1,8 @@
-package main
+package patterns
 
 import "fmt"
 
-func reverseHalfPyramid(){ 
+func ReverseHalfPyramid(){ 
 	n:=5
 	for i := n; i > 0; i-- {
 		for j := i; j >0; j-- {

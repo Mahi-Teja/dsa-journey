@@ -1,8 +1,8 @@
-package main
+package patterns
 
 import "fmt"
 
-func pyramid(){
+func Pyramid(){
 	n:= 10
 	for i := 1; i <=n; i++ {
 		for space := 0; space <= n-i-1; space++ {

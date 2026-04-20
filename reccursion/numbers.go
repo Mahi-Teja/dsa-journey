@@ -11,3 +11,11 @@ func PrintNumber(i int,n int){
 	fmt.Println(i)
 	PrintNumber(i+1,n)
 }
+func PrintNumberDesc(i int,n int){
+	if(i<1) {
+		return
+	}
+
+	fmt.Println(i)
+	PrintNumberDesc(i-1,n)
+}

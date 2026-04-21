@@ -20,5 +20,3 @@ func BTNumbersRev(i int,n int){
 	BTNumbersRev(i+1,n)
 	fmt.Println(i)
 }
-// 1,5. 
-// 

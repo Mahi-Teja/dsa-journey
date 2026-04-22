@@ -1,12 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/Mahi-Teja/dsa-journey/patterns"
-)
-
+// import required packages here
 func main() { 
-    fmt.Printf("\n")
-    patterns.SquareBoxOutline()
+    // call functions here
 }

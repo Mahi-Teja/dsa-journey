@@ -9,6 +9,7 @@ import (
 func IsPalindrome(a string ) {
  
 
+// var arr = strings.Split(a, "") // case sensitive
 var arr = strings.Split(strings.ToUpper(a), "") // case in-sensitive
 
  fmt.Println(check(arr,0))
